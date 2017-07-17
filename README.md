@@ -23,6 +23,7 @@ Drawbacks:
 1. Spent a lot of time tuning the parameters: thresholds of Canny detector and Hough transform parameters. Maybe there is a way more efficient way to do so.
 2. For every condition (poor lighting or raining), this algorithm may need a set of parameters respectively
 3. For curving fitting, it requires more data, which could be replaced by Gaussian Process Regression
+4. For the optical challenge, the result is terrible
 
 Potential Improvements:
 1. Find a more efficient way to tune the parameters (Use some opencv filters)
